@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    height: 6vh;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.nav-center > h4 {
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.nav-center > h4:hover {
+     color: rgb(43, 106, 189);
+}
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+ul > li {
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+a:hover {
+    color: rgb(43, 106, 189);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align:center;
+    background-color: rgba(219, 217, 217, 0.082);
+}
+
+.container > h2 {
+    background-color: black;
+    padding: 15px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.container > button  {
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: transparent;
+    margin-top: 2rem;
+    border-color: #222;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container > h2 > span {
+    color: #f1f5f8;
+}
+
+
+
+
+
+
